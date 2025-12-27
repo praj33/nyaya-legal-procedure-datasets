@@ -1,0 +1,121 @@
+{
+  "country": "India",
+  "domain": "Consumer / Commercial",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Consumer Protection Act, 2019",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "Commercial Courts Act, 2015",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "Code of Civil Procedure, 1908",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "eCourts Services",
+      "type": "government_portal",
+      "url": "https://ecourts.gov.in/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "District Consumer Disputes Redressal Commission",
+      "State Consumer Disputes Redressal Commission",
+      "National Consumer Disputes Redressal Commission",
+      "Commercial Court",
+      "Commercial Appellate Division of High Court",
+      "Supreme Court of India"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Complaint / Suit",
+        "description": "Consumer complaint or commercial suit is filed before the appropriate forum or court having pecuniary and territorial jurisdiction.",
+        "actor": "Complainant / Plaintiff / Advocate"
+      },
+      {
+        "step": 2,
+        "title": "Scrutiny and Registration",
+        "description": "Complaint or suit is scrutinized and registered if it complies with statutory and procedural requirements.",
+        "actor": "Registry / Forum"
+      },
+      {
+        "step": 3,
+        "title": "Issuance of Notice / Summons",
+        "description": "Notice or summons is issued to the opposite party to file a response or written statement.",
+        "actor": "Forum / Court"
+      },
+      {
+        "step": 4,
+        "title": "Filing of Reply / Written Statement",
+        "description": "Opposite party files its reply or written statement responding to the allegations.",
+        "actor": "Opposite Party / Defendant"
+      },
+      {
+        "step": 5,
+        "title": "Evidence and Hearing",
+        "description": "Parties submit evidence and are heard on merits of the dispute.",
+        "actor": "Forum / Court"
+      },
+      {
+        "step": 6,
+        "title": "Arguments",
+        "description": "Final arguments are presented by both parties.",
+        "actor": "Advocates"
+      },
+      {
+        "step": 7,
+        "title": "Order / Judgment",
+        "description": "Forum or court passes an order or judgment granting or denying relief.",
+        "actor": "Forum / Court"
+      },
+      {
+        "step": 8,
+        "title": "Execution",
+        "description": "Order or decree may be executed in accordance with applicable law if not complied with voluntarily.",
+        "actor": "Forum / Court"
+      }
+    ],
+    "documents_required": [
+      "Complaint or plaint",
+      "Invoices, receipts, or contract documents",
+      "Correspondence between parties",
+      "Proof of deficiency or breach",
+      "Affidavits and supporting evidence"
+    ],
+    "timelines": {
+      "best_case": "6–12 months",
+      "average": "1–3 years",
+      "worst_case": "5+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "District Consumer Disputes Redressal Commission",
+        "to": "State Consumer Disputes Redressal Commission",
+        "condition": "Appeal against order as permitted under the Consumer Protection Act, 2019"
+      },
+      {
+        "from": "State Consumer Disputes Redressal Commission",
+        "to": "National Consumer Disputes Redressal Commission",
+        "condition": "Appeal against order as permitted under the Consumer Protection Act, 2019"
+      },
+      {
+        "from": "Commercial Court",
+        "to": "Commercial Appellate Division of High Court",
+        "condition": "Commercial appeal under the Commercial Courts Act, 2015"
+      },
+      {
+        "from": "High Court",
+        "to": "Supreme Court of India",
+        "condition": "Appeal or Special Leave Petition as permitted by law"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "country": "Kingdom of Saudi Arabia",
+  "domain": "Criminal",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Law of Criminal Procedure",
+      "type": "statute",
+      "url": "https://www.moj.gov.sa/"
+    },
+    {
+      "name": "Saudi Penal Regulations",
+      "type": "regulation",
+      "url": "https://www.moj.gov.sa/"
+    },
+    {
+      "name": "Saudi Ministry of Justice",
+      "type": "government_portal",
+      "url": "https://www.moj.gov.sa/"
+    },
+    {
+      "name": "Public Prosecution of Saudi Arabia",
+      "type": "government_portal",
+      "url": "https://www.pp.gov.sa/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Police",
+      "Public Prosecution",
+      "Criminal Court",
+      "Court of Appeal",
+      "Supreme Court"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Criminal Complaint",
+        "description": "A criminal complaint is reported to the police regarding an alleged offence under Saudi law.",
+        "actor": "Complainant / Police"
+      },
+      {
+        "step": 2,
+        "title": "Investigation",
+        "description": "Police investigate the complaint and collect preliminary evidence before referring the case to the Public Prosecution.",
+        "actor": "Police"
+      },
+      {
+        "step": 3,
+        "title": "Public Prosecution Review",
+        "description": "Public Prosecution conducts further investigation, interrogates the accused, and determines whether to initiate criminal proceedings.",
+        "actor": "Public Prosecution"
+      },
+      {
+        "step": 4,
+        "title": "Filing of Charges",
+        "description": "If sufficient grounds exist, Public Prosecution files charges before the competent Criminal Court.",
+        "actor": "Public Prosecution"
+      },
+      {
+        "step": 5,
+        "title": "Trial Hearings",
+        "description": "Criminal Court conducts hearings, examines evidence, and hears submissions from the prosecution and the accused.",
+        "actor": "Criminal Court"
+      },
+      {
+        "step": 6,
+        "title": "Judgment",
+        "description": "Court issues a judgment of conviction or acquittal in accordance with applicable law.",
+        "actor": "Criminal Court"
+      }
+    ],
+    "documents_required": [
+      "Criminal complaint",
+      "Identity documents of parties",
+      "Investigation reports",
+      "Evidence and exhibits",
+      "Charge memorandum"
+    ],
+    "timelines": {
+      "best_case": "3–6 months",
+      "average": "6–24 months",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Criminal Court",
+        "to": "Court of Appeal",
+        "condition": "Appeal against judgment as permitted under the Law of Criminal Procedure"
+      },
+      {
+        "from": "Court of Appeal",
+        "to": "Supreme Court",
+        "condition": "Appeal on points of law or procedural review as permitted under Saudi law"
+      }
+    ]
+  }
+}

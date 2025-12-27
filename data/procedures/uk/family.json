@@ -1,0 +1,109 @@
+{
+  "country": "United Kingdom",
+  "domain": "Family",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Family Procedure Rules",
+      "type": "rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/family"
+    },
+    {
+      "name": "Matrimonial Causes Act 1973",
+      "type": "statute",
+      "url": "https://www.legislation.gov.uk/"
+    },
+    {
+      "name": "Children Act 1989",
+      "type": "statute",
+      "url": "https://www.legislation.gov.uk/"
+    },
+    {
+      "name": "HM Courts & Tribunals Service",
+      "type": "government_portal",
+      "url": "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Family Court",
+      "High Court (Family Division)",
+      "Court of Appeal (Civil Division)",
+      "Supreme Court of the United Kingdom"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pre-Application Requirements",
+        "description": "Parties may be required to attend a Mediation Information and Assessment Meeting (MIAM) before applying to court, where applicable.",
+        "actor": "Applicant"
+      },
+      {
+        "step": 2,
+        "title": "Filing of Application",
+        "description": "Application relating to divorce, financial remedies, or child arrangements is filed before the Family Court.",
+        "actor": "Applicant / Legal Representative"
+      },
+      {
+        "step": 3,
+        "title": "Service of Application",
+        "description": "Court serves the application on the respondent in accordance with the Family Procedure Rules.",
+        "actor": "Court"
+      },
+      {
+        "step": 4,
+        "title": "Response and Statements",
+        "description": "Respondent files an acknowledgment or response, and parties submit required statements or forms.",
+        "actor": "Respondent / Applicant"
+      },
+      {
+        "step": 5,
+        "title": "Hearings and Case Management",
+        "description": "Court conducts case management hearings and issues directions, including safeguarding checks where children are involved.",
+        "actor": "Family Court"
+      },
+      {
+        "step": 6,
+        "title": "Evidence and Submissions",
+        "description": "Parties submit evidence and make submissions in accordance with court directions.",
+        "actor": "Parties / Legal Representatives"
+      },
+      {
+        "step": 7,
+        "title": "Final Hearing",
+        "description": "Court hears final arguments and evidence, where required.",
+        "actor": "Family Court"
+      },
+      {
+        "step": 8,
+        "title": "Order / Decree",
+        "description": "Court issues an order or decree resolving the family matter.",
+        "actor": "Court"
+      }
+    ],
+    "documents_required": [
+      "Application form",
+      "Marriage or civil partnership certificate (if applicable)",
+      "Financial disclosure forms",
+      "Witness statements",
+      "Safeguarding reports (if applicable)"
+    ],
+    "timelines": {
+      "best_case": "6–12 months",
+      "average": "1–2 years",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Family Court / High Court (Family Division)",
+        "to": "Court of Appeal (Civil Division)",
+        "condition": "Appeal on a point of law or procedure as permitted under Family Procedure Rules"
+      },
+      {
+        "from": "Court of Appeal (Civil Division)",
+        "to": "Supreme Court of the United Kingdom",
+        "condition": "Appeal on a point of law of general public importance"
+      }
+    ]
+  }
+}

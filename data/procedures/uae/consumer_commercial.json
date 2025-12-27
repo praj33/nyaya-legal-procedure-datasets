@@ -1,0 +1,92 @@
+{
+  "country": "United Arab Emirates",
+  "domain": "Consumer / Commercial",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Federal Law No. 15 of 2020 (Consumer Protection Law)",
+      "type": "statute",
+      "url": "https://u.ae/"
+    },
+    {
+      "name": "Federal Decree-Law No. 42 of 2022 (Civil Procedure Law)",
+      "type": "statute",
+      "url": "https://www.moj.gov.ae/"
+    },
+    {
+      "name": "UAE Ministry of Economy",
+      "type": "government_portal",
+      "url": "https://www.moec.gov.ae/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Consumer Protection Department",
+      "Court of First Instance",
+      "Court of Appeal",
+      "Court of Cassation"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Consumer Complaint or Commercial Claim",
+        "description": "Consumer complaint is filed with the Consumer Protection Department, or a commercial claim is filed before the competent court having jurisdiction.",
+        "actor": "Consumer / Claimant / Legal Representative"
+      },
+      {
+        "step": 2,
+        "title": "Review and Mediation",
+        "description": "Consumer authority may review the complaint and attempt mediation or settlement between the parties, where applicable.",
+        "actor": "Consumer Protection Authority"
+      },
+      {
+        "step": 3,
+        "title": "Referral to Court",
+        "description": "If settlement is not reached or for commercial disputes, the matter proceeds before the competent civil or commercial court.",
+        "actor": "Consumer Authority / Claimant"
+      },
+      {
+        "step": 4,
+        "title": "Court Proceedings",
+        "description": "Court conducts hearings, reviews evidence, and considers submissions of the parties.",
+        "actor": "Court of First Instance"
+      },
+      {
+        "step": 5,
+        "title": "Judgment",
+        "description": "Court issues a judgment resolving the consumer or commercial dispute.",
+        "actor": "Court of First Instance"
+      },
+      {
+        "step": 6,
+        "title": "Execution",
+        "description": "Judgment may be executed through execution procedures if not complied with voluntarily.",
+        "actor": "Execution Court"
+      }
+    ],
+    "documents_required": [
+      "Consumer complaint or statement of claim",
+      "Invoices, contracts, or receipts",
+      "Correspondence between parties",
+      "Identity documents",
+      "Supporting evidence"
+    ],
+    "timelines": {
+      "best_case": "3–6 months",
+      "average": "6–18 months",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Court of First Instance",
+        "to": "Court of Appeal",
+        "condition": "Appeal against judgment as permitted under UAE law"
+      },
+      {
+        "from": "Court of Appeal",
+        "to": "Court of Cassation",
+        "condition": "Appeal on points of law as permitted under UAE law"
+      }
+    ]
+  }
+}

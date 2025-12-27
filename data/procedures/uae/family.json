@@ -1,0 +1,92 @@
+{
+  "country": "United Arab Emirates",
+  "domain": "Family",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Federal Decree-Law No. 28 of 2005 (Personal Status Law)",
+      "type": "statute",
+      "url": "https://www.moj.gov.ae/"
+    },
+    {
+      "name": "Federal Decree-Law No. 41 of 2022 (Civil Personal Status)",
+      "type": "statute",
+      "url": "https://www.moj.gov.ae/"
+    },
+    {
+      "name": "UAE Ministry of Justice",
+      "type": "government_portal",
+      "url": "https://www.moj.gov.ae/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Family Guidance Committee",
+      "Court of First Instance",
+      "Court of Appeal",
+      "Court of Cassation"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Submission to Family Guidance Committee",
+        "description": "Family dispute is submitted to the Family Guidance Committee for amicable settlement before initiating court proceedings, where applicable.",
+        "actor": "Applicant"
+      },
+      {
+        "step": 2,
+        "title": "Amicable Settlement Attempt",
+        "description": "Committee attempts reconciliation or settlement between the parties within the prescribed period.",
+        "actor": "Family Guidance Committee"
+      },
+      {
+        "step": 3,
+        "title": "Referral to Court",
+        "description": "If settlement is not reached, the matter is referred to the competent court for adjudication.",
+        "actor": "Family Guidance Committee"
+      },
+      {
+        "step": 4,
+        "title": "Filing of Family Case",
+        "description": "Family case relating to divorce, maintenance, custody, or other personal status matters is filed before the Court of First Instance.",
+        "actor": "Plaintiff / Legal Representative"
+      },
+      {
+        "step": 5,
+        "title": "Hearings and Evidence",
+        "description": "Court conducts hearings, reviews evidence, and hears submissions from both parties.",
+        "actor": "Court of First Instance"
+      },
+      {
+        "step": 6,
+        "title": "Judgment",
+        "description": "Court issues a judgment or order resolving the family dispute.",
+        "actor": "Court of First Instance"
+      }
+    ],
+    "documents_required": [
+      "Marriage contract or certificate",
+      "Identity documents of parties",
+      "Children’s birth certificates (if applicable)",
+      "Financial documents (for maintenance cases)",
+      "Settlement report from Family Guidance Committee"
+    ],
+    "timelines": {
+      "best_case": "3–6 months",
+      "average": "6–18 months",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Court of First Instance",
+        "to": "Court of Appeal",
+        "condition": "Appeal against family judgment as permitted under UAE Personal Status laws"
+      },
+      {
+        "from": "Court of Appeal",
+        "to": "Court of Cassation",
+        "condition": "Appeal on points of law as permitted under UAE law"
+      }
+    ]
+  }
+}

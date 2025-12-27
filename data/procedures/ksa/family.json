@@ -1,0 +1,92 @@
+{
+  "country": "Kingdom of Saudi Arabia",
+  "domain": "Family",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Personal Status Law (Royal Decree No. M/73 of 2022)",
+      "type": "statute",
+      "url": "https://www.moj.gov.sa/"
+    },
+    {
+      "name": "Law of Civil Procedure",
+      "type": "statute",
+      "url": "https://www.moj.gov.sa/"
+    },
+    {
+      "name": "Saudi Ministry of Justice",
+      "type": "government_portal",
+      "url": "https://www.moj.gov.sa/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Personal Status Court",
+      "General Court",
+      "Court of Appeal",
+      "Supreme Court"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Family Case",
+        "description": "A family case relating to marriage, divorce, custody, maintenance, or guardianship is filed before the Personal Status Court through the Najiz portal or court registry.",
+        "actor": "Plaintiff / Legal Representative"
+      },
+      {
+        "step": 2,
+        "title": "Case Registration and Notification",
+        "description": "Court registers the case and notifies the opposing party of the claim and hearing schedule.",
+        "actor": "Court"
+      },
+      {
+        "step": 3,
+        "title": "Reconciliation or Mediation (If Applicable)",
+        "description": "Court may attempt reconciliation or direct parties to mediation before proceeding with adjudication, where applicable.",
+        "actor": "Court"
+      },
+      {
+        "step": 4,
+        "title": "Submission of Responses",
+        "description": "Respondent submits a response or defence to the claims raised.",
+        "actor": "Respondent / Legal Representative"
+      },
+      {
+        "step": 5,
+        "title": "Hearings and Evidence",
+        "description": "Court conducts hearings, examines evidence, and hears submissions from both parties.",
+        "actor": "Court"
+      },
+      {
+        "step": 6,
+        "title": "Judgment",
+        "description": "Court issues a judgment or order resolving the family dispute.",
+        "actor": "Court"
+      }
+    ],
+    "documents_required": [
+      "Marriage contract or certificate",
+      "Identity documents of parties",
+      "Children’s birth certificates (if applicable)",
+      "Financial documents (for maintenance cases)",
+      "Supporting evidence and affidavits"
+    ],
+    "timelines": {
+      "best_case": "3–6 months",
+      "average": "6–24 months",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Personal Status Court / General Court",
+        "to": "Court of Appeal",
+        "condition": "Appeal against judgment as permitted under the Personal Status Law and Civil Procedure Law"
+      },
+      {
+        "from": "Court of Appeal",
+        "to": "Supreme Court",
+        "condition": "Appeal on points of law or procedural review as permitted under Saudi law"
+      }
+    ]
+  }
+}

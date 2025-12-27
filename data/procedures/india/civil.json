@@ -1,0 +1,111 @@
+{
+  "country": "India",
+  "domain": "Civil",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Code of Civil Procedure, 1908",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "Limitation Act, 1963",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "eCourts Services",
+      "type": "government_portal",
+      "url": "https://ecourts.gov.in/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Civil Judge (Junior Division)",
+      "Civil Judge (Senior Division)",
+      "District Court",
+      "High Court",
+      "Supreme Court of India"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Drafting and Filing of Plaint",
+        "description": "Plaint is drafted and filed before the appropriate civil court in accordance with the Code of Civil Procedure, 1908, within the prescribed limitation period.",
+        "actor": "Plaintiff / Advocate"
+      },
+      {
+        "step": 2,
+        "title": "Scrutiny and Registration of Suit",
+        "description": "Court scrutinizes the plaint and registers the civil suit if it complies with procedural requirements.",
+        "actor": "Court Registry"
+      },
+      {
+        "step": 3,
+        "title": "Issuance of Summons",
+        "description": "Summons are issued to the defendant to appear and file a written statement.",
+        "actor": "Court"
+      },
+      {
+        "step": 4,
+        "title": "Filing of Written Statement",
+        "description": "Defendant submits a written statement responding to the allegations in the plaint.",
+        "actor": "Defendant / Advocate"
+      },
+      {
+        "step": 5,
+        "title": "Framing of Issues",
+        "description": "Court frames issues based on pleadings of both parties to determine points for adjudication.",
+        "actor": "Court"
+      },
+      {
+        "step": 6,
+        "title": "Evidence Stage",
+        "description": "Parties lead oral and documentary evidence in support of their respective cases.",
+        "actor": "Plaintiff / Defendant"
+      },
+      {
+        "step": 7,
+        "title": "Final Arguments",
+        "description": "Both parties present final arguments before the court.",
+        "actor": "Advocates"
+      },
+      {
+        "step": 8,
+        "title": "Judgment",
+        "description": "Court pronounces judgment based on evidence and arguments.",
+        "actor": "Court"
+      },
+      {
+        "step": 9,
+        "title": "Decree and Execution",
+        "description": "Decree is drawn up and may be executed if not complied with voluntarily.",
+        "actor": "Court / Decree Holder"
+      }
+    ],
+    "documents_required": [
+      "Plaint",
+      "Supporting documents and evidence",
+      "Vakalatnama",
+      "Written statement",
+      "Affidavits and evidence records"
+    ],
+    "timelines": {
+      "best_case": "1–2 years",
+      "average": "3–5 years",
+      "worst_case": "7+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Civil Court / District Court",
+        "to": "High Court",
+        "condition": "First appeal or second appeal as permitted under the Code of Civil Procedure, 1908"
+      },
+      {
+        "from": "High Court",
+        "to": "Supreme Court of India",
+        "condition": "Civil appeal or Special Leave Petition as permitted by law"
+      }
+    ]
+  }
+}

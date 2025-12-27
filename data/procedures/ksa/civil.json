@@ -1,0 +1,99 @@
+{
+  "country": "Kingdom of Saudi Arabia",
+  "domain": "Civil",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Law of Civil Procedure",
+      "type": "statute",
+      "url": "https://www.moj.gov.sa/"
+    },
+    {
+      "name": "Saudi Ministry of Justice",
+      "type": "government_portal",
+      "url": "https://www.moj.gov.sa/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "General Court",
+      "Commercial Court",
+      "Court of Appeal",
+      "Supreme Court"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Civil Claim",
+        "description": "A civil claim is filed before the competent court through the Najiz electronic portal or court registry, in accordance with the Law of Civil Procedure.",
+        "actor": "Plaintiff / Legal Representative"
+      },
+      {
+        "step": 2,
+        "title": "Case Registration and Notification",
+        "description": "Court registers the case and notifies the defendant of the claim and hearing details.",
+        "actor": "Court"
+      },
+      {
+        "step": 3,
+        "title": "Submission of Defence",
+        "description": "Defendant submits a written defence or response within the prescribed timeframe.",
+        "actor": "Defendant / Legal Representative"
+      },
+      {
+        "step": 4,
+        "title": "Hearings and Evidence",
+        "description": "Court conducts hearings, reviews documentary evidence, and hears submissions from the parties.",
+        "actor": "Court"
+      },
+      {
+        "step": 5,
+        "title": "Expert Review (If Applicable)",
+        "description": "Court may appoint an expert to review technical or financial matters, where required.",
+        "actor": "Court / Court-Appointed Expert"
+      },
+      {
+        "step": 6,
+        "title": "Final Hearing",
+        "description": "Court closes pleadings and hears final submissions from the parties.",
+        "actor": "Court"
+      },
+      {
+        "step": 7,
+        "title": "Judgment",
+        "description": "Court issues a judgment resolving the civil dispute.",
+        "actor": "Court"
+      },
+      {
+        "step": 8,
+        "title": "Execution",
+        "description": "Judgment may be enforced through execution procedures if not complied with voluntarily.",
+        "actor": "Execution Court"
+      }
+    ],
+    "documents_required": [
+      "Statement of claim",
+      "Contracts or agreements",
+      "Supporting documentary evidence",
+      "Identity documents",
+      "Expert reports (if applicable)"
+    ],
+    "timelines": {
+      "best_case": "6–12 months",
+      "average": "1–3 years",
+      "worst_case": "5+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "General Court / Commercial Court",
+        "to": "Court of Appeal",
+        "condition": "Appeal against judgment as permitted under the Law of Civil Procedure"
+      },
+      {
+        "from": "Court of Appeal",
+        "to": "Supreme Court",
+        "condition": "Appeal on points of law or procedural review as permitted under Saudi law"
+      }
+    ]
+  }
+}

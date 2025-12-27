@@ -1,0 +1,110 @@
+{
+  "country": "United Kingdom",
+  "domain": "Civil",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Civil Procedure Rules",
+      "type": "rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil"
+    },
+    {
+      "name": "Limitation Act 1980",
+      "type": "statute",
+      "url": "https://www.legislation.gov.uk/"
+    },
+    {
+      "name": "HM Courts & Tribunals Service",
+      "type": "government_portal",
+      "url": "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "County Court",
+      "High Court of Justice",
+      "Court of Appeal (Civil Division)",
+      "Supreme Court of the United Kingdom"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pre-Action Protocol Compliance",
+        "description": "Parties exchange information and attempt resolution in accordance with applicable Pre-Action Protocols before commencing proceedings.",
+        "actor": "Claimant / Defendant"
+      },
+      {
+        "step": 2,
+        "title": "Filing of Claim",
+        "description": "Claim form and particulars of claim are filed with the appropriate civil court within the limitation period.",
+        "actor": "Claimant / Legal Representative"
+      },
+      {
+        "step": 3,
+        "title": "Service of Claim",
+        "description": "Claim documents are served on the defendant in accordance with Civil Procedure Rules.",
+        "actor": "Court / Claimant"
+      },
+      {
+        "step": 4,
+        "title": "Defence and Reply",
+        "description": "Defendant files a defence, and claimant may file a reply as permitted by the court rules.",
+        "actor": "Defendant / Claimant"
+      },
+      {
+        "step": 5,
+        "title": "Case Management",
+        "description": "Court conducts case management, allocates the claim to the appropriate track, and issues procedural directions.",
+        "actor": "Court"
+      },
+      {
+        "step": 6,
+        "title": "Disclosure and Evidence",
+        "description": "Parties exchange relevant documents and prepare witness statements and expert evidence, if applicable.",
+        "actor": "Parties"
+      },
+      {
+        "step": 7,
+        "title": "Trial",
+        "description": "Court hears evidence and submissions from both parties.",
+        "actor": "Court"
+      },
+      {
+        "step": 8,
+        "title": "Judgment",
+        "description": "Court delivers judgment determining the civil dispute.",
+        "actor": "Court"
+      },
+      {
+        "step": 9,
+        "title": "Enforcement",
+        "description": "Judgment may be enforced using available enforcement mechanisms if not complied with voluntarily.",
+        "actor": "Court / Claimant"
+      }
+    ],
+    "documents_required": [
+      "Claim form",
+      "Particulars of claim",
+      "Defence and reply",
+      "Witness statements",
+      "Expert reports (if applicable)"
+    ],
+    "timelines": {
+      "best_case": "6–12 months",
+      "average": "1–3 years",
+      "worst_case": "5+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "County Court / High Court",
+        "to": "Court of Appeal (Civil Division)",
+        "condition": "Appeal on a point of law or procedure as permitted under Civil Procedure Rules"
+      },
+      {
+        "from": "Court of Appeal (Civil Division)",
+        "to": "Supreme Court of the United Kingdom",
+        "condition": "Appeal on a point of law of general public importance"
+      }
+    ]
+  }
+}

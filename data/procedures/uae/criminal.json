@@ -1,0 +1,99 @@
+{
+  "country": "United Arab Emirates",
+  "domain": "Criminal",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Federal Decree-Law No. 38 of 2022 (Criminal Procedure Law)",
+      "type": "statute",
+      "url": "https://www.moj.gov.ae/"
+    },
+    {
+      "name": "Federal Decree-Law No. 31 of 2021 (Penal Code)",
+      "type": "statute",
+      "url": "https://www.moj.gov.ae/"
+    },
+    {
+      "name": "UAE Ministry of Justice",
+      "type": "government_portal",
+      "url": "https://www.moj.gov.ae/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Police",
+      "Public Prosecution",
+      "Court of First Instance",
+      "Court of Appeal",
+      "Court of Cassation"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Criminal Complaint",
+        "description": "A criminal complaint is filed with the police regarding an alleged offence under UAE law.",
+        "actor": "Complainant / Police"
+      },
+      {
+        "step": 2,
+        "title": "Police Investigation",
+        "description": "Police investigate the complaint, collect evidence, and record statements.",
+        "actor": "Police"
+      },
+      {
+        "step": 3,
+        "title": "Referral to Public Prosecution",
+        "description": "The case file is referred to the Public Prosecution for review and further action.",
+        "actor": "Police / Public Prosecution"
+      },
+      {
+        "step": 4,
+        "title": "Public Prosecution Investigation",
+        "description": "Public Prosecution examines evidence, questions parties, and determines whether to prosecute or dismiss the case.",
+        "actor": "Public Prosecution"
+      },
+      {
+        "step": 5,
+        "title": "Filing of Charges",
+        "description": "If sufficient grounds exist, Public Prosecution files charges before the competent criminal court.",
+        "actor": "Public Prosecution"
+      },
+      {
+        "step": 6,
+        "title": "Trial",
+        "description": "Court conducts hearings, examines evidence, and hears arguments from the prosecution and defence.",
+        "actor": "Court of First Instance"
+      },
+      {
+        "step": 7,
+        "title": "Judgment",
+        "description": "Court issues a judgment of conviction or acquittal.",
+        "actor": "Court of First Instance"
+      }
+    ],
+    "documents_required": [
+      "Criminal complaint",
+      "Identity documents of parties",
+      "Investigation records",
+      "Evidence and exhibits",
+      "Charge sheet"
+    ],
+    "timelines": {
+      "best_case": "3–6 months",
+      "average": "6–18 months",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Court of First Instance",
+        "to": "Court of Appeal",
+        "condition": "Appeal against judgment as permitted under UAE Criminal Procedure Law"
+      },
+      {
+        "from": "Court of Appeal",
+        "to": "Court of Cassation",
+        "condition": "Appeal on points of law as permitted under UAE law"
+      }
+    ]
+  }
+}

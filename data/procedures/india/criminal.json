@@ -1,0 +1,116 @@
+{
+  "country": "India",
+  "domain": "Criminal",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Code of Criminal Procedure, 1973",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "Indian Penal Code, 1860",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "eCourts Services",
+      "type": "government_portal",
+      "url": "https://ecourts.gov.in/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Police Station",
+      "Judicial Magistrate First Class",
+      "Sessions Court",
+      "High Court",
+      "Supreme Court of India"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Complaint / FIR",
+        "description": "Information relating to the commission of a cognizable offence is recorded under Section 154 of the Code of Criminal Procedure, 1973.",
+        "actor": "Complainant / Police"
+      },
+      {
+        "step": 2,
+        "title": "Investigation",
+        "description": "Police investigate the offence, collect evidence, examine witnesses, and record statements under the Code of Criminal Procedure, 1973.",
+        "actor": "Police"
+      },
+      {
+        "step": 3,
+        "title": "Arrest (If Required)",
+        "description": "Accused may be arrested in accordance with applicable provisions of the Code of Criminal Procedure, 1973.",
+        "actor": "Police"
+      },
+      {
+        "step": 4,
+        "title": "Filing of Charge Sheet / Closure Report",
+        "description": "Upon completion of investigation, police submit a charge sheet or closure report to the Magistrate under Section 173 of the Code of Criminal Procedure, 1973.",
+        "actor": "Police"
+      },
+      {
+        "step": 5,
+        "title": "Cognizance by Magistrate",
+        "description": "Magistrate examines the police report and takes cognizance of the offence under the Code of Criminal Procedure, 1973.",
+        "actor": "Judicial Magistrate"
+      },
+      {
+        "step": 6,
+        "title": "Framing of Charges",
+        "description": "Court frames formal charges against the accused if sufficient grounds exist.",
+        "actor": "Court"
+      },
+      {
+        "step": 7,
+        "title": "Trial",
+        "description": "Examination of prosecution witnesses, cross-examination, defence evidence, and final arguments.",
+        "actor": "Court"
+      },
+      {
+        "step": 8,
+        "title": "Judgment",
+        "description": "Court delivers judgment of acquittal or conviction based on evidence and arguments.",
+        "actor": "Court"
+      },
+      {
+        "step": 9,
+        "title": "Sentencing",
+        "description": "If convicted, the court hears the accused on the question of sentence and passes an order.",
+        "actor": "Court"
+      }
+    ],
+    "documents_required": [
+      "Written complaint or FIR",
+      "Identity proof of complainant",
+      "Medical report (if applicable)",
+      "Seizure memo and evidence records",
+      "Charge sheet or closure report"
+    ],
+    "timelines": {
+      "best_case": "6–12 months",
+      "average": "1–3 years",
+      "worst_case": "5+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Judicial Magistrate First Class",
+        "to": "Sessions Court",
+        "condition": "Appeal against conviction, acquittal, or sentence as permitted by law"
+      },
+      {
+        "from": "Sessions Court",
+        "to": "High Court",
+        "condition": "Criminal appeal or revision under applicable provisions of law"
+      },
+      {
+        "from": "High Court",
+        "to": "Supreme Court of India",
+        "condition": "Special Leave Petition or appeal as permitted by law"
+      }
+    ]
+  }
+}

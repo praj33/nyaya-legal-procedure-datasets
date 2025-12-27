@@ -1,0 +1,105 @@
+{
+  "country": "United Kingdom",
+  "domain": "Consumer / Commercial",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Consumer Rights Act 2015",
+      "type": "statute",
+      "url": "https://www.legislation.gov.uk/"
+    },
+    {
+      "name": "Civil Procedure Rules",
+      "type": "rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil"
+    },
+    {
+      "name": "HM Courts & Tribunals Service",
+      "type": "government_portal",
+      "url": "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Trading Standards Authority",
+      "County Court",
+      "High Court of Justice",
+      "Court of Appeal (Civil Division)",
+      "Supreme Court of the United Kingdom"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Raising Consumer Complaint or Commercial Claim",
+        "description": "Consumer raises complaint with the trader or relevant authority, or a commercial claimant prepares a claim for court proceedings.",
+        "actor": "Consumer / Claimant"
+      },
+      {
+        "step": 2,
+        "title": "Alternative Dispute Resolution",
+        "description": "Parties may attempt alternative dispute resolution, including negotiation or mediation, where applicable.",
+        "actor": "Parties"
+      },
+      {
+        "step": 3,
+        "title": "Filing of Claim",
+        "description": "Claim is filed before the appropriate civil court in accordance with the Civil Procedure Rules.",
+        "actor": "Claimant / Legal Representative"
+      },
+      {
+        "step": 4,
+        "title": "Service of Claim and Defence",
+        "description": "Claim is served on the defendant, who files a defence within the prescribed timeframe.",
+        "actor": "Court / Defendant"
+      },
+      {
+        "step": 5,
+        "title": "Case Management and Evidence",
+        "description": "Court manages the case, issues directions, and oversees disclosure of documents and evidence.",
+        "actor": "Court"
+      },
+      {
+        "step": 6,
+        "title": "Hearing or Trial",
+        "description": "Court hears the dispute and considers evidence and submissions.",
+        "actor": "Court"
+      },
+      {
+        "step": 7,
+        "title": "Judgment",
+        "description": "Court issues a judgment resolving the consumer or commercial dispute.",
+        "actor": "Court"
+      },
+      {
+        "step": 8,
+        "title": "Enforcement",
+        "description": "Judgment may be enforced if not complied with voluntarily.",
+        "actor": "Court / Claimant"
+      }
+    ],
+    "documents_required": [
+      "Complaint records or correspondence",
+      "Contracts, invoices, or receipts",
+      "Claim form and particulars",
+      "Defence and replies",
+      "Witness statements or expert reports"
+    ],
+    "timelines": {
+      "best_case": "3–6 months",
+      "average": "6–24 months",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "County Court / High Court",
+        "to": "Court of Appeal (Civil Division)",
+        "condition": "Appeal on a point of law or procedure as permitted under Civil Procedure Rules"
+      },
+      {
+        "from": "Court of Appeal (Civil Division)",
+        "to": "Supreme Court of the United Kingdom",
+        "condition": "Appeal on a point of law of general public importance"
+      }
+    ]
+  }
+}

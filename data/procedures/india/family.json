@@ -1,0 +1,109 @@
+{
+  "country": "India",
+  "domain": "Family",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Hindu Marriage Act, 1955",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "Family Courts Act, 1984",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "Code of Civil Procedure, 1908",
+      "type": "statute",
+      "url": "https://legislative.gov.in/"
+    },
+    {
+      "name": "eCourts Services",
+      "type": "government_portal",
+      "url": "https://ecourts.gov.in/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Family Court",
+      "District Court",
+      "High Court",
+      "Supreme Court of India"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Petition",
+        "description": "Petition relating to marriage, divorce, maintenance, custody, or other family matters is filed before the Family Court having jurisdiction.",
+        "actor": "Petitioner / Advocate"
+      },
+      {
+        "step": 2,
+        "title": "Court Scrutiny and Registration",
+        "description": "Court scrutinizes the petition and registers the case if procedural requirements are satisfied.",
+        "actor": "Court Registry"
+      },
+      {
+        "step": 3,
+        "title": "Issuance of Notice",
+        "description": "Notice is issued to the respondent to appear and file a reply.",
+        "actor": "Family Court"
+      },
+      {
+        "step": 4,
+        "title": "Counselling / Mediation",
+        "description": "Court may direct parties to counselling or mediation to explore settlement, as provided under the Family Courts Act, 1984.",
+        "actor": "Court / Counsellor"
+      },
+      {
+        "step": 5,
+        "title": "Filing of Written Statement",
+        "description": "Respondent files a written statement responding to the allegations in the petition.",
+        "actor": "Respondent / Advocate"
+      },
+      {
+        "step": 6,
+        "title": "Evidence Stage",
+        "description": "Parties lead oral and documentary evidence in support of their respective claims.",
+        "actor": "Petitioner / Respondent"
+      },
+      {
+        "step": 7,
+        "title": "Final Arguments",
+        "description": "Both parties present final submissions before the court.",
+        "actor": "Advocates"
+      },
+      {
+        "step": 8,
+        "title": "Judgment / Order",
+        "description": "Court passes judgment or order granting or rejecting the relief sought.",
+        "actor": "Family Court"
+      }
+    ],
+    "documents_required": [
+      "Marriage certificate",
+      "Identity and address proof of parties",
+      "Income proof (for maintenance matters)",
+      "Birth certificates of children (if applicable)",
+      "Affidavits and supporting documents"
+    ],
+    "timelines": {
+      "best_case": "6–12 months",
+      "average": "1–3 years",
+      "worst_case": "5+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Family Court",
+        "to": "High Court",
+        "condition": "Appeal or revision as permitted under applicable family and civil laws"
+      },
+      {
+        "from": "High Court",
+        "to": "Supreme Court of India",
+        "condition": "Appeal or Special Leave Petition as permitted by law"
+      }
+    ]
+  }
+}

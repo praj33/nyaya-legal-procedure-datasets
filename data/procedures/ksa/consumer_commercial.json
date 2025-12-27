@@ -1,0 +1,97 @@
+{
+  "country": "Kingdom of Saudi Arabia",
+  "domain": "Consumer / Commercial",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Consumer Protection Law",
+      "type": "statute",
+      "url": "https://www.mci.gov.sa/"
+    },
+    {
+      "name": "Commercial Courts Law",
+      "type": "statute",
+      "url": "https://www.moj.gov.sa/"
+    },
+    {
+      "name": "Law of Civil Procedure",
+      "type": "statute",
+      "url": "https://www.moj.gov.sa/"
+    },
+    {
+      "name": "Saudi Ministry of Commerce",
+      "type": "government_portal",
+      "url": "https://www.mci.gov.sa/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Ministry of Commerce",
+      "Commercial Court",
+      "Court of Appeal",
+      "Supreme Court"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Consumer Complaint or Commercial Claim",
+        "description": "Consumer complaint is filed with the Ministry of Commerce, or a commercial claim is filed before the Commercial Court through the Najiz portal.",
+        "actor": "Consumer / Claimant / Legal Representative"
+      },
+      {
+        "step": 2,
+        "title": "Review and Settlement Attempt",
+        "description": "Consumer authority may review the complaint and attempt amicable settlement between the parties, where applicable.",
+        "actor": "Ministry of Commerce"
+      },
+      {
+        "step": 3,
+        "title": "Referral to Commercial Court",
+        "description": "If settlement is not reached or for commercial disputes, the case proceeds before the Commercial Court.",
+        "actor": "Ministry of Commerce / Claimant"
+      },
+      {
+        "step": 4,
+        "title": "Court Hearings and Evidence",
+        "description": "Commercial Court conducts hearings, reviews evidence, and hears submissions from the parties.",
+        "actor": "Commercial Court"
+      },
+      {
+        "step": 5,
+        "title": "Judgment",
+        "description": "Court issues a judgment resolving the consumer or commercial dispute.",
+        "actor": "Commercial Court"
+      },
+      {
+        "step": 6,
+        "title": "Execution",
+        "description": "Judgment may be enforced through execution procedures if not complied with voluntarily.",
+        "actor": "Execution Court"
+      }
+    ],
+    "documents_required": [
+      "Consumer complaint or statement of claim",
+      "Contracts, invoices, or receipts",
+      "Correspondence between parties",
+      "Identity documents",
+      "Supporting documentary evidence"
+    ],
+    "timelines": {
+      "best_case": "3–6 months",
+      "average": "6–24 months",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Commercial Court",
+        "to": "Court of Appeal",
+        "condition": "Appeal against judgment as permitted under Commercial Courts Law"
+      },
+      {
+        "from": "Court of Appeal",
+        "to": "Supreme Court",
+        "condition": "Appeal on points of law or procedural review as permitted under Saudi law"
+      }
+    ]
+  }
+}

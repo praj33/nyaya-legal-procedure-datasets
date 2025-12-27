@@ -1,0 +1,105 @@
+{
+  "country": "United Kingdom",
+  "domain": "Criminal",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Criminal Procedure Rules",
+      "type": "rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/criminal"
+    },
+    {
+      "name": "Police and Criminal Evidence Act 1984",
+      "type": "statute",
+      "url": "https://www.legislation.gov.uk/"
+    },
+    {
+      "name": "HM Courts & Tribunals Service",
+      "type": "government_portal",
+      "url": "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Police",
+      "Crown Prosecution Service",
+      "Magistrates’ Court",
+      "Crown Court",
+      "Court of Appeal (Criminal Division)",
+      "Supreme Court of the United Kingdom"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Investigation and Arrest",
+        "description": "Police investigate alleged criminal conduct and may arrest suspects in accordance with the Police and Criminal Evidence Act 1984.",
+        "actor": "Police"
+      },
+      {
+        "step": 2,
+        "title": "Charging Decision",
+        "description": "Crown Prosecution Service reviews evidence and decides whether to charge the suspect.",
+        "actor": "Crown Prosecution Service"
+      },
+      {
+        "step": 3,
+        "title": "First Court Appearance",
+        "description": "Accused appears before the Magistrates’ Court for initial hearing, including plea and bail decisions.",
+        "actor": "Magistrates’ Court"
+      },
+      {
+        "step": 4,
+        "title": "Case Allocation",
+        "description": "Case is allocated to Magistrates’ Court or sent to the Crown Court depending on offence seriousness.",
+        "actor": "Magistrates’ Court"
+      },
+      {
+        "step": 5,
+        "title": "Trial",
+        "description": "Trial is conducted with examination of evidence and witnesses in the appropriate court.",
+        "actor": "Magistrates’ Court / Crown Court"
+      },
+      {
+        "step": 6,
+        "title": "Verdict",
+        "description": "Court delivers verdict of guilty or not guilty.",
+        "actor": "Court"
+      },
+      {
+        "step": 7,
+        "title": "Sentencing",
+        "description": "If convicted, court imposes sentence in accordance with applicable law.",
+        "actor": "Court"
+      }
+    ],
+    "documents_required": [
+      "Charge sheet",
+      "Police investigation records",
+      "Witness statements",
+      "Forensic or expert reports",
+      "Case file submitted by Crown Prosecution Service"
+    ],
+    "timelines": {
+      "best_case": "3–6 months",
+      "average": "6–24 months",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Magistrates’ Court",
+        "to": "Crown Court",
+        "condition": "Appeal against conviction or sentence as permitted by law"
+      },
+      {
+        "from": "Crown Court",
+        "to": "Court of Appeal (Criminal Division)",
+        "condition": "Appeal against conviction or sentence as permitted by law"
+      },
+      {
+        "from": "Court of Appeal (Criminal Division)",
+        "to": "Supreme Court of the United Kingdom",
+        "condition": "Appeal on a point of law of general public importance"
+      }
+    ]
+  }
+}

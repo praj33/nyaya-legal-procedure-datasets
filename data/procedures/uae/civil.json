@@ -1,0 +1,98 @@
+{
+  "country": "United Arab Emirates",
+  "domain": "Civil",
+  "last_verified": "2025-01",
+  "sources": [
+    {
+      "name": "Federal Decree-Law No. 42 of 2022 (Civil Procedure Law)",
+      "type": "statute",
+      "url": "https://www.moj.gov.ae/"
+    },
+    {
+      "name": "UAE Ministry of Justice",
+      "type": "government_portal",
+      "url": "https://www.moj.gov.ae/"
+    }
+  ],
+  "procedure": {
+    "authority": [
+      "Court of First Instance",
+      "Court of Appeal",
+      "Court of Cassation"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Filing of Civil Claim",
+        "description": "A civil claim is filed before the competent court through the court registry or electronic filing system, in accordance with UAE Civil Procedure Law.",
+        "actor": "Plaintiff / Legal Representative"
+      },
+      {
+        "step": 2,
+        "title": "Case Registration and Fee Payment",
+        "description": "Court registers the case after verification of documents and payment of prescribed court fees.",
+        "actor": "Court Registry"
+      },
+      {
+        "step": 3,
+        "title": "Service of Summons",
+        "description": "Summons and statement of claim are served on the defendant to appear and submit a defence.",
+        "actor": "Court"
+      },
+      {
+        "step": 4,
+        "title": "Submission of Defence and Replies",
+        "description": "Defendant submits a memorandum of defence, and parties may exchange written submissions as permitted by the court.",
+        "actor": "Defendant / Plaintiff"
+      },
+      {
+        "step": 5,
+        "title": "Hearings and Evidence",
+        "description": "Court conducts hearings, examines documentary evidence, and may appoint experts if required.",
+        "actor": "Court"
+      },
+      {
+        "step": 6,
+        "title": "Final Submissions",
+        "description": "Parties present final written or oral submissions before closure of pleadings.",
+        "actor": "Legal Representatives"
+      },
+      {
+        "step": 7,
+        "title": "Judgment",
+        "description": "Court issues a judgment deciding the civil dispute.",
+        "actor": "Court of First Instance"
+      },
+      {
+        "step": 8,
+        "title": "Execution",
+        "description": "Judgment may be executed through the execution court if not complied with voluntarily.",
+        "actor": "Execution Court"
+      }
+    ],
+    "documents_required": [
+      "Statement of claim",
+      "Supporting contracts or documents",
+      "Identity documents",
+      "Powers of attorney",
+      "Expert reports (if applicable)"
+    ],
+    "timelines": {
+      "best_case": "6–12 months",
+      "average": "1–2 years",
+      "worst_case": "3+ years"
+    },
+    "escalation_paths": [
+      {
+        "from": "Court of First Instance",
+        "to": "Court of Appeal",
+        "condition": "Appeal against judgment as permitted under UAE Civil Procedure Law"
+      },
+      {
+        "from": "Court of Appeal",
+        "to": "Court of Cassation",
+        "condition": "Appeal on points of law as permitted under UAE law"
+      }
+    ]
+  }
+}
