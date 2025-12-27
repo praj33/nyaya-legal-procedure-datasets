@@ -18,24 +18,25 @@ This repository contains **structured, ingestion-ready legal procedure datasets*
 
 ## Repository Structure
 
+```text
 data/
 ├── procedures/
-│ ├── india/
-│ ├── uae/
-│ ├── uk/
-│ └── ksa/
+│   ├── india/
+│   ├── uae/
+│   ├── uk/
+│   └── ksa/
 │
 ├── audits/
-│ ├── law_coverage_india.md
-│ ├── law_coverage_uae.md
-│ ├── law_coverage_uk.md
-│ └── law_coverage_ksa.md
+│   ├── law_coverage_india.md
+│   ├── law_coverage_uae.md
+│   ├── law_coverage_uk.md
+│   └── law_coverage_ksa.md
 │
 └── sources/
-├── sources_india.md
-├── sources_uae.md
-├── sources_uk.md
-└── sources_ksa.md
+    ├── sources_india.md
+    ├── sources_uae.md
+    ├── sources_uk.md
+    └── sources_ksa.md
 
 ## Data Principles
 - Source-based only (official statutes and government portals)
