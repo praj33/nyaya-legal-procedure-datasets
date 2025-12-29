@@ -37,7 +37,7 @@
       {
         "step": 2,
         "title": "Investigation",
-        "description": "Police investigate the offence, collect evidence, examine witnesses, and record statements under the Code of Criminal Procedure, 1973.",
+        "description": "Police investigate the offence, collect evidence, and record statements under the Code of Criminal Procedure, 1973.",
         "actor": "Police"
       },
       {
@@ -48,36 +48,60 @@
       },
       {
         "step": 4,
+        "title": "Production Before Magistrate",
+        "description": "Arrested accused is produced before the Magistrate within the prescribed time for judicial oversight.",
+        "actor": "Police / Court"
+      },
+      {
+        "step": 5,
+        "title": "Bail Hearing",
+        "description": "Court considers the bail application under applicable provisions of the Code of Criminal Procedure, 1973.",
+        "actor": "Court",
+        "conditional_branches": [
+          {
+            "condition": "Bail granted",
+            "next_step": "Release on bail",
+            "effect": "Accused is released subject to conditions imposed by the court"
+          },
+          {
+            "condition": "Bail rejected",
+            "next_step": "Judicial custody",
+            "effect": "Accused is remanded to judicial custody pending further proceedings"
+          }
+        ]
+      },
+      {
+        "step": 6,
         "title": "Filing of Charge Sheet / Closure Report",
         "description": "Upon completion of investigation, police submit a charge sheet or closure report to the Magistrate under Section 173 of the Code of Criminal Procedure, 1973.",
         "actor": "Police"
       },
       {
-        "step": 5,
+        "step": 7,
         "title": "Cognizance by Magistrate",
         "description": "Magistrate examines the police report and takes cognizance of the offence under the Code of Criminal Procedure, 1973.",
         "actor": "Judicial Magistrate"
       },
       {
-        "step": 6,
+        "step": 8,
         "title": "Framing of Charges",
         "description": "Court frames formal charges against the accused if sufficient grounds exist.",
         "actor": "Court"
       },
       {
-        "step": 7,
+        "step": 9,
         "title": "Trial",
         "description": "Examination of prosecution witnesses, cross-examination, defence evidence, and final arguments.",
         "actor": "Court"
       },
       {
-        "step": 8,
+        "step": 10,
         "title": "Judgment",
         "description": "Court delivers judgment of acquittal or conviction based on evidence and arguments.",
         "actor": "Court"
       },
       {
-        "step": 9,
+        "step": 11,
         "title": "Sentencing",
         "description": "If convicted, the court hears the accused on the question of sentence and passes an order.",
         "actor": "Court"
