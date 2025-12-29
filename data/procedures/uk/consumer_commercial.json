@@ -1,16 +1,21 @@
 {
-  "country": "United Kingdom",
+  "country": "UK",
   "domain": "Consumer / Commercial",
   "last_verified": "2025-01",
   "sources": [
     {
       "name": "Consumer Rights Act 2015",
       "type": "statute",
-      "url": "https://www.legislation.gov.uk/"
+      "url": "https://www.legislation.gov.uk"
     },
     {
-      "name": "Civil Procedure Rules",
-      "type": "rules",
+      "name": "Enterprise Act 2002",
+      "type": "statute",
+      "url": "https://www.legislation.gov.uk"
+    },
+    {
+      "name": "Civil Procedure Rules (CPR)",
+      "type": "statute",
       "url": "https://www.justice.gov.uk/courts/procedure-rules/civil"
     },
     {
@@ -21,84 +26,132 @@
   ],
   "procedure": {
     "authority": [
-      "Trading Standards Authority",
+      "Trading Standards",
+      "Alternative Dispute Resolution Body",
       "County Court",
-      "High Court of Justice",
-      "Court of Appeal (Civil Division)",
-      "Supreme Court of the United Kingdom"
+      "High Court",
+      "Court of Appeal",
+      "Supreme Court"
     ],
     "steps": [
       {
         "step": 1,
-        "title": "Raising Consumer Complaint or Commercial Claim",
-        "description": "Consumer raises complaint with the trader or relevant authority, or a commercial claimant prepares a claim for court proceedings.",
+        "title": "Pre-Action Engagement and Complaint",
+        "canonical_step": "CASE_ALLOCATION",
+        "description": "Consumer raises complaint with trader and engages in pre-action correspondence or complaints handling procedures.",
         "actor": "Consumer / Claimant"
       },
       {
         "step": 2,
-        "title": "Alternative Dispute Resolution",
-        "description": "Parties may attempt alternative dispute resolution, including negotiation or mediation, where applicable.",
-        "actor": "Parties"
+        "title": "Alternative Dispute Resolution Consideration",
+        "canonical_step": "SETTLEMENT_ATTEMPT",
+        "description": "Parties may engage an approved Alternative Dispute Resolution (ADR) body to attempt settlement before court proceedings.",
+        "actor": "Consumer / Trader / ADR Body",
+        "conditional_branches": [
+          {
+            "condition": "Settlement reached",
+            "canonical_outcome": "SETTLEMENT_REACHED",
+            "next_step": "Settlement implemented",
+            "effect": "Dispute resolved without court proceedings"
+          },
+          {
+            "condition": "Settlement not reached",
+            "canonical_outcome": "SETTLEMENT_FAILED",
+            "next_step": "Proceed to court claim",
+            "effect": "Claim proceeds to formal court process"
+          }
+        ],
+        "outcome_intelligence": {
+          "typical_outcomes": [
+            "Full settlement",
+            "Partial settlement",
+            "No settlement"
+          ],
+          "probability_range": {
+            "min": 0.3,
+            "max": 0.7
+          },
+          "dependencies": [
+            "Trader participation in ADR",
+            "Clarity of consumer rights claim",
+            "Quality of documentary evidence",
+            "Cost-benefit analysis by parties"
+          ]
+        },
+        "cost_effort": {
+          "cost_band": "Low",
+          "effort_intensity": "Low to Medium",
+          "case_difficulty": 2
+        },
+        "risk_flags": {
+          "high_risk_case": false,
+          "evidence_sensitivity": "Medium",
+          "failure_risks": [
+            "Trader refusal to engage in ADR",
+            "Incomplete documentation",
+            "Expiry of limitation period"
+          ]
+        }
       },
       {
         "step": 3,
-        "title": "Filing of Claim",
-        "description": "Claim is filed before the appropriate civil court in accordance with the Civil Procedure Rules.",
+        "title": "Issuing of Court Claim",
+        "canonical_step": "CASE_ALLOCATION",
+        "description": "Claimant issues a claim in the County Court or High Court depending on value and complexity.",
         "actor": "Claimant / Legal Representative"
       },
       {
         "step": 4,
-        "title": "Service of Claim and Defence",
-        "description": "Claim is served on the defendant, who files a defence within the prescribed timeframe.",
+        "title": "Service, Defence, and Case Management",
+        "canonical_step": "CASE_ALLOCATION",
+        "description": "Claim is served on defendant, defence is filed, and court manages the case and allocates it to the appropriate track.",
         "actor": "Court / Defendant"
       },
       {
         "step": 5,
-        "title": "Case Management and Evidence",
-        "description": "Court manages the case, issues directions, and oversees disclosure of documents and evidence.",
+        "title": "Trial or Determination",
+        "canonical_step": "TRIAL",
+        "description": "Court hears evidence and legal submissions and determines the dispute.",
         "actor": "Court"
       },
       {
         "step": 6,
-        "title": "Hearing or Trial",
-        "description": "Court hears the dispute and considers evidence and submissions.",
+        "title": "Judgment",
+        "canonical_step": "JUDGMENT",
+        "description": "Court issues judgment granting or denying relief under consumer or commercial law.",
         "actor": "Court"
       },
       {
         "step": 7,
-        "title": "Judgment",
-        "description": "Court issues a judgment resolving the consumer or commercial dispute.",
-        "actor": "Court"
-      },
-      {
-        "step": 8,
-        "title": "Enforcement",
-        "description": "Judgment may be enforced if not complied with voluntarily.",
-        "actor": "Court / Claimant"
+        "title": "Appeal",
+        "canonical_step": "APPEAL",
+        "description": "Aggrieved party may appeal the judgment to a higher court where permitted.",
+        "actor": "Court / Parties"
       }
     ],
     "documents_required": [
-      "Complaint records or correspondence",
+      "Consumer complaint records",
+      "Pre-action correspondence",
       "Contracts, invoices, or receipts",
-      "Claim form and particulars",
-      "Defence and replies",
-      "Witness statements or expert reports"
+      "ADR outcomes (if applicable)",
+      "Witness statements",
+      "Court orders and judgments"
     ],
     "timelines": {
       "best_case": "3–6 months",
-      "average": "6–24 months",
-      "worst_case": "3+ years"
+      "average": "6–18 months",
+      "worst_case": "2–3 years"
     },
     "escalation_paths": [
       {
         "from": "County Court / High Court",
-        "to": "Court of Appeal (Civil Division)",
-        "condition": "Appeal on a point of law or procedure as permitted under Civil Procedure Rules"
+        "to": "Court of Appeal",
+        "condition": "Appeal against judgment"
       },
       {
-        "from": "Court of Appeal (Civil Division)",
-        "to": "Supreme Court of the United Kingdom",
-        "condition": "Appeal on a point of law of general public importance"
+        "from": "Court of Appeal",
+        "to": "Supreme Court",
+        "condition": "Appeal on point of law of general public importance"
       }
     ]
   }
