@@ -72,9 +72,21 @@
       },
       {
         "step": 6,
-        "title": "Filing of Charge Sheet / Closure Report",
-        "description": "Upon completion of investigation, police submit a charge sheet or closure report to the Magistrate under Section 173 of the Code of Criminal Procedure, 1973.",
-        "actor": "Police"
+        "title": "Filing of Charge Sheet or Closure Report",
+        "description": "Upon completion of investigation, police submit either a charge sheet or a closure report to the Magistrate under Section 173 of the Code of Criminal Procedure, 1973.",
+        "actor": "Police",
+        "conditional_branches": [
+          {
+            "condition": "Charge sheet filed",
+            "next_step": "Cognizance by Magistrate",
+            "effect": "Court proceeds to examine the case for trial"
+          },
+          {
+            "condition": "Closure report filed",
+            "next_step": "Judicial review of closure",
+            "effect": "Magistrate may accept the closure or direct further investigation"
+          }
+        ]
       },
       {
         "step": 7,
