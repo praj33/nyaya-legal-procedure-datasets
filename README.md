@@ -4,6 +4,18 @@ This repository contains **structured, ingestion-ready legal procedure datasets*
 
 ## Scope
 
+## Versions
+
+- **v1.1** — Frozen procedural datasets  
+  - Country- and domain-specific legal procedures  
+  - Conditional branching, outcome intelligence, cost/effort, and risk flags  
+  - Fully ingestion-ready and production-stable  
+
+- **v2.0** — Executable procedural intelligence (schema-only)  
+  - System-level schemas for escalation, failure paths, evidence readiness, and compliance  
+  - No procedural JSONs modified  
+  - Designed to power reasoning engines, RL training, and UI flow control
+
 ### Jurisdictions
 - India
 - United Arab Emirates (UAE)
@@ -57,4 +69,7 @@ Designed for direct consumption by:
 
 ---
 
-**Status:** Complete and ingestion-ready
+**Status:**  
+- v1.1 procedures: Complete and ingestion-ready  
+- v2.0 schemas: Production-ready (execution intelligence, schema-only)
+
